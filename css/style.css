@@ -8,7 +8,7 @@ h3{
 }
 
 p{
-  margin: 10px 0;
+  padding: 10px;
 }
 
 body{
@@ -37,10 +37,16 @@ body{
 }
 
 /* responsive */
+
+/* smartphone */
 @media screen and (max-width:767px){
 
   h2{
     font-size: 32px;
+    border: 1px solid white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
   }
 
   h3{
@@ -48,7 +54,7 @@ body{
   }
 
   body{
-    background: linear-gradient(to top right, #6699ff 0%, #ff99ff 100%);
+    background: linear-gradient(to bottom, #ff6666 0%, #ffcc00 100%);
     color: white;
   }
 
@@ -57,6 +63,7 @@ body{
   }
 }
 
+/* tablet */
 @media screen and (min-width:768px) and (max-width:991px){
 
   body{
