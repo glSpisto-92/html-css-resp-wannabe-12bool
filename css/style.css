@@ -1,0 +1,33 @@
+h2{
+  font-size: 34px;
+  margin-bottom: 40px;
+}
+
+h3{
+  margin: 20px 0;
+}
+
+p{
+  margin: 10px 0;
+}
+
+.container{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.img-general{
+  height: 200px;
+}
+
+.img-foot{
+  height: 300px;
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 50%;
+  background-color: #668cff;
+}
+
+.space{
+  padding: 20px;
+}
