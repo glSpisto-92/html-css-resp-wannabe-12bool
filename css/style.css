@@ -56,10 +56,15 @@ body{
   body{
     background: linear-gradient(to bottom, #ff6666 0%, #ffcc00 100%);
     color: white;
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   hr{
     display: none;
+  }
+
+  .img-foot, .img-general{
+    height: 150px;
   }
 }
 
